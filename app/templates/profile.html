@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="card_c">
+    <div class="b1">
+        <br>
+        <br>
+        <img src="{{url_for('static', filename='jhgf.jpg')}}"> 
+        <br>
+        <br>
+        <div class="gen">
+            <p class="name">Ajonelle Solomon</p>
+            <p class="username">@ajsol</p>
+            <p class="location">St.Catherine, Jamaica</p>
+            <p class="d_joined">Joined {{ joined_date }}</p>
+        </div>
+    </div>
+    <div class="b2">
+        <p class="bio">I'm a girl. I enjoy playing games. I enjoy swimming, playing games and reading. Sometimes I feel like I know how to code and other times I'm downcast. Sighs.</p>
+        <br>
+        <br>
+        <div class="tog">
+            <p class="numbers">3 51 50</p>
+            <p class="n_caption">Posts Following Followers</p>
+        </div>
+        <button type="button">Follow</button>
+        
+    </div>
+</div>
+{% endblock %}
